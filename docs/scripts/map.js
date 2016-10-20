@@ -194,7 +194,7 @@ function processLayer(result) {
 	// Add features to the map
 	var selection_label = $('#layers-dropdown option:selected').text();
 // ACTION ITEM: The selection label must match your view in Cloudant	
-	if (selection_label == "Veneration of bishops") {
+	if (selection_label == "Veneration_of_bishops") {
 // ACTION ITEM: Replace mapbox id below with the mapbox id that corresponds to your georeferenced map for the view above			
 		new_id = 'bjdaugherty.1f95k5km'
 	} 
