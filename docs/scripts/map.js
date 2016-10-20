@@ -5,8 +5,8 @@ L.mapbox.accessToken =
 	'pk.eyJ1IjoiYmpkYXVnaGVydHkiLCJhIjoiY2llcHVzc3FxMDA0N3N6bHo4Znl6cnh5diJ9.4JbFtKw16Eea1BYzSKTasQ';
 
 // ACTION ITEM: Insert the Mapbox key for your landing page map, refer blank for information on locating the map key. Also change the set view for your region of the world
-var map = L.mapbox.map('map', "bjdaugherty.1f96gjpb").setView([42.3565,-71.0593],
-	12);
+var map = L.mapbox.map('map', "bjdaugherty.1n4h6c05").setView([35.754025,2.8926624],
+	8);
 var layer = L.mapbox.featureLayer().addTo(map)
 
 // Add custom popup html to each marker
@@ -196,7 +196,7 @@ function processLayer(result) {
 // ACTION ITEM: The selection label must match your view in Cloudant	
 	if (selection_label == "Veneration_of_bishops") {
 // ACTION ITEM: Replace mapbox id below with the mapbox id that corresponds to your georeferenced map for the view above			
-		new_id = 'bjdaugherty.1f95k5km'
+		new_id = 'bjdaugherty.1n4h6c05'
 	} 
 // ACTION ITEM: If you would like to incorporate multiple views into your mapping application, remove the double slashes in front of each trio of lines beginning with else if and ending with the end curly brace.	
 // ACTION ITEM: Each trio of lines from else if to the end curly brace is equivalent to one Cloudant view and map.
@@ -215,7 +215,7 @@ function processLayer(result) {
 	// } 
 // ACTION ITEM: Replace this mapbox id with the mapbox id for your landing page map.	
 	else {
-		new_id = 'bjdaugherty.1f96gjpb'
+		new_id = 'bjdaugherty.1n4h6c05'
 	};
 	var new_layer = L.mapbox.tileLayer(new_id);
 	new_layer.addTo(map);
