@@ -18,7 +18,7 @@ body { margin-top: 50px; }
     text-align: center;
 }
 .popup .slideshow {
-    width: 100%;
+    width: 200%;
 }
 .popup .slideshow .image {
     display: none;
@@ -27,7 +27,7 @@ body { margin-top: 50px; }
     display: block;
 }
 .popup .slideshow img {
-    width: 100%;
+    width: 200%;
 }
 .popup .slideshow .caption {
     background: #eee;
