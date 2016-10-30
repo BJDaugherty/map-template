@@ -11,7 +11,7 @@
 /*ACTION ITEM:  customize the color and font-family*/
 .navbar-brand {
   color: #ffffff !important;
-  font-family: Book Antiqua;
+  font-family: quattrocento, serif;
   font-size: 24px; 
 }
 
